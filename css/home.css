@@ -1,0 +1,45 @@
+.container-banner p {
+	color: #e1ccb9;
+	font-size: 48px;
+	display: inline-block;
+	padding: 24px;
+	position: relative;
+	vertical-align: middle;
+}
+
+.sobre-mim, .meus-interesses {
+    width: 960px;
+	margin: 48px auto;
+	position: relative;
+}
+
+.sobre-mim p {
+	display: inline-block;
+	vertical-align: middle;
+	width: 600px;
+	font-size: 20px;
+	text-align: left;
+	color: #030201;
+	letter-spacing: 2px;
+	margin-right: 50px;
+	line-height: 1.5;
+}
+
+.bisteca {
+	width: 300px;
+	vertical-align: middle;
+	text-align: right;
+	float: right;
+}
+
+.lista-gostos {
+    width: 500px;
+    margin-right: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
+	font-size: 20px;
+    color: #030201;
+	letter-spacing: 2px;
+	line-height: 1.5;
+}

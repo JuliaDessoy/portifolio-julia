@@ -1,0 +1,35 @@
+body {
+	background-color: #e1ccb9;
+}
+
+main {
+    width: 960px;
+    margin: 0 auto 48px;
+}
+
+.habilidades li {
+	display: inline-block;
+	text-align: center;
+	width: 350px;
+    height: 300px;
+	vertical-align: top;
+    padding: 40px;
+	border: 5px solid #8e0200;
+	border-radius: 32px;
+	background-color: #e1ccb9;
+	transition: 0.8s all cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.habilidades li:nth-child(1) {
+    margin-right: 73px;
+}
+
+.habilidades li:hover {
+	transform: scale(1.05);
+}
+
+.habilidades-descricao {
+	font-size: 20px;
+    color: #030201;
+    line-height: 1.5;
+}

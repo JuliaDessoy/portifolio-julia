@@ -1,0 +1,34 @@
+body {
+	background-color: #e1ccb9;
+}
+
+.contatos {
+	width: 960px;
+	margin: 0 auto 48px;
+}
+
+.contatos ul {
+	list-style: none;
+	width: 600px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contatos i {
+    text-decoration: none;
+    color: #030201;
+	font-size: 40px;
+    transition: 0.4s all;
+    display: inline-block;
+	line-height: 1.5;
+}
+
+.contatos i:hover {
+	color: #8e0200;
+}
+
+.bisteca {
+	width: 300px;
+	vertical-align: middle;
+	text-align: right;
+}
